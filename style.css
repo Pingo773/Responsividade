@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body {
+    /* background-color: #010f02; */
+    background:linear-gradient(90deg, #000d01, #000d01, #002601, #000d01, #000d01);
+}
+
+h1 {
+    margin-top: 70px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+
+p {
+    margin: auto;
+    width: 50%;
+    font-size: 15px;
+    margin-bottom: 4px;
+    padding: 1%;
+    text-shadow: 2px 2px 1px black;
+    background-color: #010f026b;
+    border-radius: 10px;
+}
+
+.main-section {
+    text-align: center;
+    padding-top: 40px;
+    margin: 8%;
+    margin-top: 0;
+    background: url(https://images.alphacoders.com/133/1332701.jpeg);
+
+    background-position: center;
+    background-position-y: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.background {
+    width: 100%;
+}
+
+.logo {
+    width: 40%;
+}
+
+.main-section button {
+    background-color: rgb(211, 152, 26);
+    color: black;
+    font-size: 40px;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    border: 0px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Mobile Design */
+@media (max-width: 428px) {
+    body {
+        background-color: rgb(0, 22, 4);
+    }
+
+    .main-section {
+        margin: 0;
+        margin-top: 16%;
+        background-size: cover;
+        
+    }
+
+    .logo{
+        width: 85%;
+        margin-bottom: 1px;
+    }
+
+    h1 {
+        margin-top: 25px;
+        margin-bottom: 60px;
+        font-size: 33px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    p{
+        width: 90%;
+        background-color: #010f02bb;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
